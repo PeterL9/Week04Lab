@@ -14,8 +14,8 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
-        <p weight="bolder">Title: </p><p>${note.title}</p>
-        <p weight="bolder">Contents: </p><p>${note.content}</p>
-        <a href="editnote.jsp">Edit</a>
+        <p weight="bolder">Title: ${note.title}</p>
+        <p weight="bolder">Contents: ${note.content}</p>
+        <a href="note?editnote.jsp">Edit</a>
     </body>
 </html>
