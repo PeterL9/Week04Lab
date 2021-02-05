@@ -16,6 +16,6 @@
         <h2>View Note</h2>
         <p weight="bolder">Title: ${note.title}</p>
         <p weight="bolder">Contents: ${note.content}</p>
-        <a href="note?editnote.jsp">Edit</a>
+        <a href="note?edit" name="edit">Edit</a>
     </body>
 </html>

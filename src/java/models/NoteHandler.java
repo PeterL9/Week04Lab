@@ -19,8 +19,9 @@ public class NoteHandler {
         try {
         PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(file, false)));
         
-        pw.write(note.getTitle() + "/n");
-        pw.write(note.getContent());
+        pw.println(note.getTitle());
+        pw.println(note.getContent());
+        pw.flush();
         pw.close();
         }
         catch (IOException e){
